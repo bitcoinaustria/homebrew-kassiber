@@ -1,11 +1,13 @@
 cask "kassiber" do
-  version "0.22.56"
-  sha256 "3334d987feb775a73c0efff27951d8c951f1a38a42025227a064ab9c1dd19e78"
+  version "0.22.58"
+  sha256 "5df0d5357e063ffd058c88eb00b58ce9505fefc68d7ba2dcfa8eb97da4e4029e"
 
-  url "https://github.com/bitcoinaustria/kassiber/releases/download/v#{version}/kassiber-macos-universal.dmg"
+  url "https://github.com/bitcoinaustria/kassiber/releases/download/v#{version}/kassiber-macos-arm64.dmg"
   name "Kassiber"
   desc "Local-first Bitcoin accounting suite"
   homepage "https://github.com/bitcoinaustria/kassiber"
+
+  depends_on arch: :arm64
 
   app "Kassiber.app"
   binary "#{appdir}/Kassiber.app/Contents/Resources/bin/kassiber",
