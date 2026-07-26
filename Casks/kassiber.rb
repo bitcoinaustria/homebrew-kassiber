@@ -1,6 +1,6 @@
 cask "kassiber" do
-  version "0.22.59"
-  sha256 "a8ac2be09e5b25cc7cedfb08cff0ddbca1f9e6a917da06e6adaa5b53fd62ea4e"
+  version "0.22.60"
+  sha256 "ff6c6d72a6cce539e6e14f5b352ee51d19ad1179f576996454eb00c9f13024fc"
 
   url "https://github.com/bitcoinaustria/kassiber/releases/download/v#{version}/kassiber-macos-arm64.dmg"
   name "Kassiber"
