@@ -1,20 +1,20 @@
 class KassiberCli < Formula
   desc "Local-first Bitcoin accounting CLI"
   homepage "https://github.com/bitcoinaustria/kassiber"
-  version "0.22.71"
+  version "0.22.73"
   license "AGPL-3.0-only"
 
   on_macos do
     on_arm do
       url "https://github.com/bitcoinaustria/kassiber/releases/download/v#{version}/kassiber-cli-macos-arm64.tar.gz"
-      sha256 "06f33111aeffcb95e008a4dc0873e6f4a5dcd52c3152de705680e93593c15bbe"
+      sha256 "3f0dba9e39a04fef375454c4c3519e5aeba901a7bf3db3af56138ec13f102a5e"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/bitcoinaustria/kassiber/releases/download/v#{version}/kassiber-cli-linux-x64.tar.gz"
-      sha256 "f589a5034b7fbd4ea1b6d61156c821da801effdf929df95a5a1e15492fc192fc"
+      sha256 "9357d97a0de3ff5000ea37b81ad3fb472b89562adb249c6d28eb0f8f4bc115fc"
     end
   end
 
